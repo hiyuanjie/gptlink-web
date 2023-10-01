@@ -59,11 +59,7 @@ const TabBar = () => {
         </DropdownMenuTrigger>
         <DropdownMenuContent side="top" align={'start'}>
           <DropdownMenuItem className="flex items-center gap-2 pr-3">
-            <ThemeMode />
-            <Link to="https://github.com/gptlink/gptlink-web" target="_blank">
-              <Button variant="ghost" className="p-0 px-2">
-                <Github size={18} />
-              </Button>
+            <ThemeMode />\
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
