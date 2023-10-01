@@ -180,11 +180,6 @@ export default function Header({ isPlain = false }) {
       </div>
 
       <div className="flex items-center gap-2">
-        <Link to="https://github.com/gptlink/gptlink-web" target="_blank">
-          <Button variant="ghost" className="p-0 px-2">
-            <Github size={18} />
-          </Button>
-        </Link>
         <ThemeMode />
         {!isPlain && <UserDropDown />}
       </div>
